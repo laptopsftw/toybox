@@ -1,0 +1,13 @@
+i hoped for more.and it came
+
+it all started a busy schoolday night.
+
+then i read discrete math
+
+then collatz conjecture
+
+this python file gives a number,then find its paths if it reaches to 1,then gives another number....till positive infinity,or till it halts(which,if the paths are "loopy",who knows?not me,but you...yes...well,if it doesnt halt,it's undecidable,thanks turing)
+but anyways,even unoptimized,i tried computing starting points of 10^500...how nice
+everyone proved for <10^57 , but i tried bigger numbers,still good,still good
+
+requires a blank file named "wd"
