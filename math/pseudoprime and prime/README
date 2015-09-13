@@ -1,0 +1,12 @@
+i sometimes mezmerize myself in prime numbers...
+then i found the algorithm of pierre de fermat
+then it has holes
+then i made collecting
+
+
+this is (originally) a pseudoprime generator and (it became,with some adjustments) a prime generator
+just generates a list of numbers...first,via pierre's algorithm,and sift it via erastosthenes
+
+good.
+
+requires blank files "x" and "y"
