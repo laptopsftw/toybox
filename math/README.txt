@@ -6,9 +6,12 @@ try to remove the "math" module from python,it's just modules that can perform m
 
 it all started when someone needs to checked his paper,then,it was talking about remainders...and it's stuck
 
+then it grew bigger and bigger
+
 contents:
 
 math2 -  originally the "kumon checker",now it was developed to replace "math".i just quit,no updating.
 math3 -  inspired from a presentation on pycon ph 2015,i made (my) most recursive way to do arithmetic.as of now,it only works on whole numbers.
 jandro - from a suggestion of jandro r. lim , it's planned to find zeroes of a binomial,then for any n-th nomial equation...then galois,then blah...then eigenvalues...
-pseudoprimes and prime-as a result of a month crazed about fermat,a prime finder,then pseudoprime finder
+pseudoprimes and prime-as a result of a month crazed about fermat,a prime finder,then pseudoprime finder.
+collatz-collatz conjecture...it just generate a number's "paths",well,given there is a starter point(at variable "a"),then it solves everything up to positive infinity 
