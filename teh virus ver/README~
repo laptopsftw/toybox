@@ -1,0 +1,25 @@
+um...please dont run anything from these files...it will infect thy pc
+seryoso
+
+here's the "valmasci" virus that's been circulating since batch nexus...or maybe two years back
+
+but anyways,the effects were...minimal,at least...
+it's a nuisance,hiding files in a folder,named "Alt+255"(type it,it's a utf-8 , i think).
+then a shortcut is created,directly to the program
+then it infects,then it infects via usb's(at least)
+
+it's easy to delete,via "attrib -r -a -s -h -i /s /d /l drivename:\\*.* " command.works on usb.but on computers?i dont know
+here,at my safekeeping,we will unlock...nothing!
+anyways,decompile the code,and find some dirt in there
+goodluck,gentlement!
+
+p.s. i tried to oepn it using ubuntu's archive manager,no to avail...but it opens most programs...i dont know
+
+contents:
+autorun
+desktop.ini
+desktop2.ini (found it lying around...)
+my removable device.lnk (the suspect...dont click things that are suspicious)
+readme
+thumbs.db (haha,db...nothing important..)
+~$WOQTOEE.USBDrv (veru suspicious...even the size...too small)
